@@ -7,4 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/trades")
 public class TradesController {
     
+    @RequestMapping(method=RequestMethod.POST)
+	public void addTrades() {
+		
+	}
+    @RequestMapping(method=RequestMethod.GET)
+	public void getAllTrades() {
+		
+	}
+    @RequestMapping(method=RequestMethod.DELETE)
+	public void deleteAllTrades() {
+		
+	}
+    
 }
